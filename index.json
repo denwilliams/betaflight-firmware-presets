@@ -1386,7 +1386,7 @@
     },
     {
       "fullPath": "presets/4.3/other/fc/crazybeex_diamondf4_frsky.txt",
-      "hash": "82066d5c055ca1b03a372b9a5d1e45bb6934ccadce1f76f9805816c5339b6df0",
+      "hash": "663edbeb6dc2664cb148b329cd32428d7b535f3db93cdfe2d4c28ac9239cd337",
       "title": "Crazybee DiamondF4 with Frysky SPI RX and built in VTX",
       "firmware_version": [
         "4.3"
@@ -1896,8 +1896,23 @@
     },
     {
       "fullPath": "presets/4.3/rates/whoop/whoop.txt",
-      "hash": "3992a3b6b7ef2872621a64d0712f9802f9d6ba831addcb408878f418736dea3b",
+      "hash": "71b30360cee16cbb4c3274e15c23b57ff8efd2a22aa815169879454ace64859b",
       "title": "Whoop Rates",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "RATES",
+      "status": "COMMUNITY",
+      "keywords": [
+        "toothpick"
+      ],
+      "author": "Den Williams",
+      "priority": 10000
+    },
+    {
+      "fullPath": "presets/4.3/rates/whoop/whoop_old.txt",
+      "hash": "0f976e5808c25ce7b524284542c6af248ca0cd0cdc357cf591de55efb6e05e6d",
+      "title": "Whoop Rates (Old)",
       "firmware_version": [
         "4.3"
       ],
