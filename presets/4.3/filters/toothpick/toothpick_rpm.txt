@@ -1,0 +1,72 @@
+#$ TITLE: 4.3 Filter settings for NORMAL toothpick build with RPM FILTERING for an F4 processor.
+#$ FIRMWARE_VERSION: 4.3
+#$ CATEGORY: FILTERS
+#$ STATUS: OFFICIAL
+#$ KEYWORDS: rpm, DShot telemetry, filter, filters, normal, toothpick
+#$ AUTHOR: Den Williams
+#$ DESCRIPTION: Intended for a well maintained build in good condition with RPM filtering.
+#$ DESCRIPTION: WARNING: Ensure that DShot Telemetry is working properly!
+#$ DESCRIPTION: If motors get hot, try a filter set for noisy or very noisy motors.
+#$ DESCRIPTION: If motors grind or make noise at idle, lower the D filter slider.
+
+#$ INCLUDE: presets/4.3/filters/defaults.txt
+
+# enable dshot rpm telemetry
+set dshot_bidir = ON
+
+# -- Gyro filters --
+# Single static gyro lowpass at 500hz
+set gyro_lpf1_dyn_min_hz = 0
+set gyro_lpf1_dyn_max_hz = 0
+set gyro_lpf1_static_hz = 0
+set gyro_lpf2_static_hz = 750
+
+# -- Gyro Sliders (on by default) --
+# only lpf2 is active
+set simplified_gyro_filter_multiplier = 150
+
+# -- Gyro Static Notches (default)--
+
+# -- Gyro Dynamic Notches --
+set dyn_notch_count = 2
+set dyn_notch_q = 450
+set dyn_notch_min_hz = 100
+
+# -- RPM filtering (default of 3 notches each at 500hz - make to 1 notch) --
+# forcing rpm_filter_q to 500 in case it was set to 300 when RPM filtering was off
+set dshot_bidir = ON
+set rpm_filter_harmonics = 1
+set rpm_filter_q = 500
+
+# -- Dterm filtering --
+set dterm_lpf1_dyn_min_hz = 112
+set dterm_lpf1_dyn_max_hz = 225
+set dterm_lpf1_static_hz = 112
+set dterm_lpf2_static_hz = 225
+
+# -- Dterm sliders --
+set simplified_dterm_filter_multiplier = 150
+
+# -- Yaw lowpass (default) --
+# -- Accelerometer lowpass (default) --
+
+# -- PIDs --
+set p_pitch = 67
+set i_pitch = 96
+set d_pitch = 48
+set f_pitch = 137
+set p_roll = 64
+set i_roll = 91
+set d_roll = 41
+set f_roll = 132
+set p_yaw = 64
+set i_yaw = 91
+set f_yaw = 132
+set d_min_roll = 31
+set d_min_pitch = 35
+# set feedforward_averaging = 2_POINT
+set feedforward_jitter_factor = 9
+set simplified_master_multiplier = 110
+set simplified_i_gain = 80
+set simplified_d_gain = 95
+set simplified_pi_gain = 130

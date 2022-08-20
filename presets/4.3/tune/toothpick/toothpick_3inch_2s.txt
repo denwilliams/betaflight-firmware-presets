@@ -1,0 +1,30 @@
+#$ TITLE: 3" 2S Toothpick
+#$ FIRMWARE_VERSION: 4.3
+#$ CATEGORY: TUNE
+#$ STATUS: COMMUNITY 
+#$ KEYWORDS: 2S, 3 inch, 3", freestyle
+#$ AUTHOR: Den Williams
+#$ DESCRIPTION: Tune for 3" toothpicks
+#$ INCLUDE: presets/4.3/tune/defaults.txt
+#$ INCLUDE: presets/4.3/filters/defaults.txt
+#$ INCLUDE: presets/4.3/osd/defaults.txt
+#$ INCLUDE: presets/4.3/osd/toothpick/toothpick.txt
+#$ INCLUDE: presets/4.3/rates/toothpick/toothpick.txt
+#$ INCLUDE: presets/4.3/filters/toothpick/toothpick_rpm.txt
+
+# feature
+feature -AIRMODE
+
+# master
+set dshot_bidir = ON
+
+set vbat_max_cell_voltage = 433
+set vbat_min_cell_voltage = 320
+set vbat_warning_cell_voltage = 335
+
+# props out
+set yaw_motors_reversed = ON
+
+# set small_angle = 180
+# set gyro_1_align_yaw = 900
+# set gyro_rpm_notch_harmonics = 1
