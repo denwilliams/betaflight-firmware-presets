@@ -1,0 +1,21 @@
+#$ TITLE: VBat 1S Whoop Settings
+#$ FIRMWARE_VERSION: 4.3
+#$ CATEGORY: OTHER
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: vbat
+#$ AUTHOR: Den Williams
+#$ DESCRIPTION: Set vbat settings suitable for 1S whoops
+
+set vbat_max_cell_voltage = 435
+set vbat_min_cell_voltage = 300
+set vbat_warning_cell_voltage = 330
+
+# A fall from 4.2V to 3.5V is about a 16% reduction in voltage. Withs 100% compensation, a motor output reduction of about 16% will be applied when the battery is full. As the battery voltage falls, motor output is dynamically boosted back towards normal, canceling out the effect of the sag. Once the battery falls to 3.5V or lower, motor output will be normal, or back to 100%, and no further compensation is possible.
+# To keep a bit more aggression at the start, at the cost of having a bit more 'sag' during the flight, apply less than full compensation, eg 50% compensation is set vbat_sag_compensation = 50.
+# Setting more than 100% compensation can help whoops that sag really badly, but usually isn't needed.
+set vbat_sag_compensation = 50
+set vbat_pid_gain = OFF
+
+# To only cover the slow fall, set vbat_sag_lpf_period to 200 (20 seconds period, or a time constant of about 3.3 seconds). This will not compensate for quick transient drops. High values make sense for slow flyers or cinematic type flying.
+# To respond quickly, stick with the default vbat_sag_lpf_period of 2, or 200ms. This has a time constant of about 33ms, fast enough to respond very quickly to fast throttle blips and quick split-S turn type sags.
+# set vbat_sag_lpf_period = 2

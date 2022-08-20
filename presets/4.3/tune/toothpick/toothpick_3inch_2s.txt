@@ -11,16 +11,13 @@
 #$ INCLUDE: presets/4.3/osd/toothpick/toothpick.txt
 #$ INCLUDE: presets/4.3/rates/toothpick/toothpick.txt
 #$ INCLUDE: presets/4.3/filters/toothpick/toothpick_rpm.txt
+#$ INCLUDE: presets/4.3/other/vbat/vbat_2s.txt
 
 # feature
 feature -AIRMODE
 
 # master
 set dshot_bidir = ON
-
-set vbat_max_cell_voltage = 433
-set vbat_min_cell_voltage = 320
-set vbat_warning_cell_voltage = 335
 
 # props out
 set yaw_motors_reversed = ON

@@ -197,6 +197,7 @@
       "3 inch",
       "3.5in",
       "3\"",
+      "31mm",
       "3in",
       "3S",
       "40mm",
@@ -266,6 +267,7 @@
       "DDC",
       "default",
       "defaults",
+      "diamondf4",
       "diatone",
       "Digipick",
       "digital",
@@ -448,6 +450,7 @@
       "unify pro",
       "utility",
       "vanover",
+      "vbat",
       "very",
       "very clean",
       "very noisy",
@@ -527,7 +530,7 @@
     },
     {
       "fullPath": "presets/4.3/bnf/whoop/75_40_1S.txt",
-      "hash": "e342015d8e1fd606a0ae57d29f2061e4271ca18190c8a2c54dd3cf93d231e60c",
+      "hash": "aff088eb4c8ce415a2c94165ee8e4198156be188a2a825400fe0fdd6f3f21845",
       "title": "W403_75",
       "firmware_version": [
         "4.3"
@@ -537,8 +540,30 @@
       "keywords": [
         "1S",
         "40mm",
+        "75mm",
         "whoop",
         "crazybee",
+        "tlite"
+      ],
+      "author": "Den Williams",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.3/bnf/whoop/Diamond65.txt",
+      "hash": "0f1fe4f1d73c21dc5302374d5b95a1c8f6afbab5ac19cc064090b1356407f73a",
+      "title": "Diamond65",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "BNF",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "1S",
+        "31mm",
+        "65mm",
+        "whoop",
+        "crazybee",
+        "diamondf4",
         "tlite"
       ],
       "author": "Den Williams",
@@ -1360,6 +1385,22 @@
       "priority": 0
     },
     {
+      "fullPath": "presets/4.3/other/fc/crazybeex_diamondf4_frsky.txt",
+      "hash": "3663d5fae6039bb5688d770e02c05ae5ed8779b51843fe9e99b268726f9658a3",
+      "title": "CrazybeeX 1.0 with Frysky R-XSR RX and built in VTX (No Beacon)",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "OTHER",
+      "status": "COMMUNITY",
+      "keywords": [
+        "crazybee",
+        "fc"
+      ],
+      "author": "Den Williams",
+      "priority": 0
+    },
+    {
       "fullPath": "presets/4.3/other/gyroflow_min_blackbox.txt",
       "hash": "15c71e564d549b8e3abd80026c83ff17241606137af32dd5a7b6f42ee228cc4c",
       "title": "Gyroflow minimum settings",
@@ -1504,6 +1545,51 @@
         "stats"
       ],
       "author": "Betaflight",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.3/other/vbat/vbat_1s.txt",
+      "hash": "4bc65eb292fd2a19c393120c8a4dbd56805d0b49bb9f266f90e54dd5932432aa",
+      "title": "VBat 1S Settings",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "OTHER",
+      "status": "COMMUNITY",
+      "keywords": [
+        "vbat"
+      ],
+      "author": "Den Williams",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.3/other/vbat/vbat_1s_whoop.txt",
+      "hash": "63611277d9deb35fee0451c75c10cd543f1041058b95e0e93a29a6d8fd4b9c00",
+      "title": "VBat 1S Whoop Settings",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "OTHER",
+      "status": "COMMUNITY",
+      "keywords": [
+        "vbat"
+      ],
+      "author": "Den Williams",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.3/other/vbat/vbat_2s.txt",
+      "hash": "09c39072ad3f9563f3ffcf166584fd01f40af237585a863a6d063025f4d58403",
+      "title": "VBat 2S Settings",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "OTHER",
+      "status": "COMMUNITY",
+      "keywords": [
+        "vbat"
+      ],
+      "author": "Den Williams",
       "priority": 0
     },
     {
@@ -3320,7 +3406,7 @@
     },
     {
       "fullPath": "presets/4.3/tune/toothpick/toothpick_3inch_2s.txt",
-      "hash": "82387b26e4f02dc2bd9b56083a1dc0f30f457596db2e92477b6d9f81fcfc0895",
+      "hash": "172a0abd02ac65dfb4103c0a1ee84e478d5d334ddaabeec2d233bbc28acdf9a3",
       "title": "3\" 2S Toothpick",
       "firmware_version": [
         "4.3"
@@ -3332,6 +3418,23 @@
         "3 inch",
         "3\"",
         "freestyle"
+      ],
+      "author": "Den Williams",
+      "priority": 1000000000000
+    },
+    {
+      "fullPath": "presets/4.3/tune/whoop/whoop_65mm_1s.txt",
+      "hash": "d1282815523a91d69edae4b93aa298805bbd7560a997cfb7648acfd7a265fa9c",
+      "title": "65mm 1S Whoop",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "1S",
+        "75mm",
+        "whoop"
       ],
       "author": "Den Williams",
       "priority": 1000000000000
@@ -3690,6 +3793,23 @@
       "fullPath": "presets/4.3/vtx/crazybeex_22.txt",
       "hash": "d14ca5cbf0a9c717a138af9696586005e335362c67cdd05faece2552d9e61173",
       "title": "CrazybeeX 2.2 Internal VTX 200mW",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "VTX",
+      "status": "COMMUNITY",
+      "keywords": [
+        "happymodel",
+        "crazybee",
+        "fc"
+      ],
+      "author": "Den Williams",
+      "priority": 1000000
+    },
+    {
+      "fullPath": "presets/4.3/vtx/crazybeex_diamondf4.txt",
+      "hash": "bd37148460bed37c2a1549c5ed7ad7864f8f20be485aa46485ee7ffecc9b0b4c",
+      "title": "Crazybee DiamondF4 Internal VTX 200mW",
       "firmware_version": [
         "4.3"
       ],

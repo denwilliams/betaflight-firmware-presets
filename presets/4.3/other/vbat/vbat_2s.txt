@@ -1,0 +1,11 @@
+#$ TITLE: VBat 2S Settings
+#$ FIRMWARE_VERSION: 4.3
+#$ CATEGORY: OTHER
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: vbat
+#$ AUTHOR: Den Williams
+#$ DESCRIPTION: Set vbat settings suitable for 2S micros
+
+set vbat_max_cell_voltage = 435
+set vbat_min_cell_voltage = 330
+set vbat_warning_cell_voltage = 350
