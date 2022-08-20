@@ -1,10 +1,10 @@
-#$ TITLE: CrazybeeX 1.0 with Frysky R-XSR RX and built in VTX (No Beacon)
+#$ TITLE: Crazybee DiamondF4 with Frysky SPI RX and built in VTX
 #$ FIRMWARE_VERSION: 4.3
 #$ CATEGORY: OTHER
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: crazybee, fc
 #$ AUTHOR: Den Williams
-#$ DESCRIPTION: Configuration for CrazybeeX 1.0 with Frsky R-XSR
+#$ DESCRIPTION: Configuration for DiamondF4 1.0 with Frysky SPI RX
 #$ INCLUDE: presets/4.3/vtx/crazybeex_diamondf4.txt
 #$ INCLUDE: presets/4.3/rc_link/frsky_spi_d8.txt
 
@@ -19,3 +19,16 @@ set beeper_dshot_beacon_tone = 3
 set ibata_scale = 1175
 set gyro_1_align_yaw = 900
 set motor_pwm_protocol = DSHOT300
+set dshot_bidir = ON
+set align_board_yaw = 180
+set yaw_motors_reversed = ON
+set rssi_scale = 120
+
+# master
+# set gyro_lowpass2_hz = 275
+# set dyn_notch_width_percent = 0
+# set dyn_notch_q = 250
+# set dyn_notch_min_hz = 125
+# set dyn_notch_max_hz = 350
+# set dyn_lpf_gyro_min_hz = 220
+# set dyn_lpf_gyro_max_hz = 550

@@ -15,5 +15,5 @@
 
 set name = Diamond65
 
-# set acc_calibration = 8,-47,-234,1
+set acc_calibration = 56,-4,-22,1
 set motor_poles = 12

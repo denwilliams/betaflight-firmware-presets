@@ -550,7 +550,7 @@
     },
     {
       "fullPath": "presets/4.3/bnf/whoop/Diamond65.txt",
-      "hash": "0f1fe4f1d73c21dc5302374d5b95a1c8f6afbab5ac19cc064090b1356407f73a",
+      "hash": "4b5474f758a3ab58f85687f71964e1800e3d38f02b6f75efc6d94698a0fa643f",
       "title": "Diamond65",
       "firmware_version": [
         "4.3"
@@ -1386,8 +1386,8 @@
     },
     {
       "fullPath": "presets/4.3/other/fc/crazybeex_diamondf4_frsky.txt",
-      "hash": "3663d5fae6039bb5688d770e02c05ae5ed8779b51843fe9e99b268726f9658a3",
-      "title": "CrazybeeX 1.0 with Frysky R-XSR RX and built in VTX (No Beacon)",
+      "hash": "82066d5c055ca1b03a372b9a5d1e45bb6934ccadce1f76f9805816c5339b6df0",
+      "title": "Crazybee DiamondF4 with Frysky SPI RX and built in VTX",
       "firmware_version": [
         "4.3"
       ],
@@ -2114,7 +2114,7 @@
     },
     {
       "fullPath": "presets/4.3/rc_link/frsky_spi_d8.txt",
-      "hash": "3b42fa64b2460fd4d251946d36f6a0349815f624d375ee4d4d94365b8c0d685a",
+      "hash": "4277926c3e290db4fdbcda025524f527ced789a6c2fe84def220db4097e0f190",
       "title": "Frsky SPI D8 Binding",
       "firmware_version": [
         "4.3"
@@ -3424,7 +3424,7 @@
     },
     {
       "fullPath": "presets/4.3/tune/whoop/whoop_65mm_1s.txt",
-      "hash": "d1282815523a91d69edae4b93aa298805bbd7560a997cfb7648acfd7a265fa9c",
+      "hash": "503691b8627dc96be90043fc05bf7a8cbece472c240f4d913082b1d14fc2d3d9",
       "title": "65mm 1S Whoop",
       "firmware_version": [
         "4.3"
@@ -3441,7 +3441,7 @@
     },
     {
       "fullPath": "presets/4.3/tune/whoop/whoop_75mm_1s.txt",
-      "hash": "d4ba4f6856558c8b6fee5d8727b794c635446723912479a5452f973bf4918eee",
+      "hash": "b68b88667b011d9edbf9d0f87005e46483f6e34bdf020224967961c77bd2f286",
       "title": "75mm 1S Whoop",
       "firmware_version": [
         "4.3"
@@ -3808,7 +3808,7 @@
     },
     {
       "fullPath": "presets/4.3/vtx/crazybeex_diamondf4.txt",
-      "hash": "bd37148460bed37c2a1549c5ed7ad7864f8f20be485aa46485ee7ffecc9b0b4c",
+      "hash": "114798599c157b7c05ddf6464567ea76f94635fca04b7361b2f71277fafaaf3e",
       "title": "Crazybee DiamondF4 Internal VTX 200mW",
       "firmware_version": [
         "4.3"
