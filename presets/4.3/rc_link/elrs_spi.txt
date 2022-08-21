@@ -13,6 +13,8 @@ set rx_spi_protocol = EXPRESSLRS
 set rc_smoothing_auto_factor = 25
 set rc_smoothing_auto_factor_throttle = 25
 set serialrx_provider = CRSF
+
+# 500Hz = 0, 250Hz = 1, 150Hz = 2, 50Hz = 3
 set expresslrs_rate_index = 1
 
 set iterm_relax = RPY

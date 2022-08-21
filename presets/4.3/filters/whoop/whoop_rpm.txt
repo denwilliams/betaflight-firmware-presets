@@ -13,7 +13,7 @@ set dshot_bidir = ON
 # -- Filter Settings --
 set simplified_dterm_filter = ON
 set simplified_gyro_filter = ON
-# use 4 if no RPM filtering, need to lower to 2 if RPM enabled
+# use 4 if no RPM filtering, need to lower to 2 (or 1) if RPM enabled
 set dyn_notch_count = 2
 set dyn_notch_min_hz = 100
 set dyn_notch_max_hz = 1000
@@ -24,10 +24,8 @@ set simplified_gyro_filter_multiplier = 150
 simplified_tuning apply
 
 # RPM filtering
-# set dshot_bidir = ON
-# set dyn_notch_count = 2
 set rpm_filter_harmonics = 2
 
 # Dynamic Idle
-# set dshot_bidir = ON
 set dyn_idle_min_rpm = 35
+# for racing whoops (no tricks) it might be better to just set idle to 13%
