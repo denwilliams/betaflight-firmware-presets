@@ -35,3 +35,11 @@ serial 1 2048 115200 57600 0 115200
 # beacon
 beacon RX_LOST
 beacon RX_SET
+
+# master
+set cpu_overclock = 120MHZ
+set beeper_dshot_beacon_tone = 3
+# set ibata_scale = 1175
+set dshot_burst = OFF
+set dshot_bidir = ON
+set motor_pwm_protocol = DSHOT300
