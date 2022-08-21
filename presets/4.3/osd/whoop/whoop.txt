@@ -6,15 +6,18 @@
 #$ AUTHOR: Den Williams
 #$ DESCRIPTION: Standard OSD settings for indoor whooping
 
+# Warnings
 set osd_warn_batt_not_full = OFF
 set osd_warn_esc_fail = OFF
 set osd_warn_launch_control = OFF
 set osd_warn_no_gps_rescue = OFF
 set osd_warn_gps_rescue_disabled = OFF
+
+# Elements
 set osd_vbat_pos = 2433
 set osd_rssi_pos = 2137
 set osd_tim_2_pos = 375
-set osd_flymode_pos = 2457
+set osd_flymode_pos = 2456
 set osd_throttle_pos = 2104
 set osd_crosshairs_pos = 2253
 set osd_current_pos = 2336
@@ -25,6 +28,8 @@ set osd_avg_cell_voltage_pos = 353
 set osd_disarmed_pos = 2314
 set osd_flip_arrow_pos = 2222
 set osd_core_temp_pos = 2081
+
+# Stats
 set osd_stat_tim_1 = ON
 set osd_stat_max_spd = OFF
 set osd_stat_endbatt = ON
