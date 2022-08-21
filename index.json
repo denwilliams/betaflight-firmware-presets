@@ -572,7 +572,7 @@
     },
     {
       "fullPath": "presets/4.3/bnf/whoop/ELRS65.txt",
-      "hash": "94d5e0ecb44cffd8a3a8b0265dab3f3a7e439d3b824f37cebb02ec3cc717e381",
+      "hash": "9fd0185d3fbca5952b2f837de094778f289b91e91e1ddb845870678f3c0cd983",
       "title": "ELRS65",
       "firmware_version": [
         "4.3"
@@ -2135,7 +2135,7 @@
     },
     {
       "fullPath": "presets/4.3/rc_link/elrs_spi.txt",
-      "hash": "a08c32d11af77590d9762bd871e0f913e15ca614a6d35f46441212d10a354363",
+      "hash": "95e7a0006894bb27da9b56d8c63fbfdb8d109ed64b05139c3c1c291cba197cc3",
       "title": "ELRS SPI Binding",
       "firmware_version": [
         "4.3"
