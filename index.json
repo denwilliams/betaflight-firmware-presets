@@ -531,8 +531,28 @@
     },
     {
       "fullPath": "presets/4.3/bnf/whoop/75_40_1S.txt",
-      "hash": "aff088eb4c8ce415a2c94165ee8e4198156be188a2a825400fe0fdd6f3f21845",
+      "hash": "9d35d64a72323fed30732b627aadabf1835bb093c9b8df66e2c8b1b5236f93f6",
       "title": "W403_75",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "BNF",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "1S",
+        "40mm",
+        "75mm",
+        "whoop",
+        "crazybee",
+        "tlite"
+      ],
+      "author": "Den Williams",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.3/bnf/whoop/Basher75.txt",
+      "hash": "ac5d73842dd2da9663fa8f65ab4186d43da9e876e00f41d13e07ac129b7bf9d7",
+      "title": "Basher75",
       "firmware_version": [
         "4.3"
       ],
@@ -968,7 +988,7 @@
     },
     {
       "fullPath": "presets/4.3/filters/whoop/whoop_no_rpm.txt",
-      "hash": "530a62961fdec520a62af285ed2967a5435418fff58ec2388b95acb40c8da9dd",
+      "hash": "205e52b05b2a3943a80d9395ed09e98bd8bb5286b540804ea4b9426333d81d2f",
       "title": "4.3 Filter settings for NORMAL build WITH NO RPM FILTERING.",
       "firmware_version": [
         "4.3"
@@ -985,12 +1005,12 @@
         "default",
         "betaflight"
       ],
-      "author": "Betaflight",
+      "author": "Den Williams",
       "priority": 100
     },
     {
       "fullPath": "presets/4.3/filters/whoop/whoop_rpm.txt",
-      "hash": "dfbc7bb1af0b3ba162893dbe2435bf054fd853ef2f3a7f3bfc5eda3e875254f0",
+      "hash": "23504913f56f3d9925bc7b79357dfb8924a02fc1504545da3548417d6fb29a15",
       "title": "4.3 Filter settings for NORMAL build WITH RPM FILTERING.",
       "firmware_version": [
         "4.3"
@@ -1007,7 +1027,7 @@
         "default",
         "betaflight"
       ],
-      "author": "Betaflight",
+      "author": "Den Williams",
       "priority": 100
     },
     {
@@ -1366,7 +1386,7 @@
     },
     {
       "fullPath": "presets/4.3/other/fc/crazybee_f4elrs.txt",
-      "hash": "dc87fcf8063ac6cfce228f1776126ae06824901e98baa07dd29ddfee9c59ffc8",
+      "hash": "590830bdfcc3d80c76bc1ae5bcf90eb2e8686587b02951e754b06083ad96104c",
       "title": "Crazybee ELRS F4",
       "firmware_version": [
         "4.3"
@@ -1400,6 +1420,22 @@
       "fullPath": "presets/4.3/other/fc/crazybee_pro_3_frsky.txt",
       "hash": "b464f797a36b7b4ad69f82d88982bf0307f931c0a90de07dc4900c167763a797",
       "title": "Crazybee Pro 3.0 with Frsky SPI RX (No Beacon)",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "OTHER",
+      "status": "COMMUNITY",
+      "keywords": [
+        "crazybee",
+        "fc"
+      ],
+      "author": "Den Williams",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.3/other/fc/crazybeex_10_ep2.txt",
+      "hash": "35c790369499b766597dd8259bf2974d2a2936422736775089796a095b98a6cd",
+      "title": "CrazybeeX 1.0 with Frysky R-XSR RX and built in VTX (No Beacon)",
       "firmware_version": [
         "4.3"
       ],
@@ -2134,8 +2170,24 @@
       "priority": 10000000000
     },
     {
+      "fullPath": "presets/4.3/rc_link/elrs_serial.txt",
+      "hash": "1f5e48283c0322b7c736c97e55c166ea8e75570c986de264711f1b3603347e91",
+      "title": "ELRS Serial Based",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "RC_LINK",
+      "status": "COMMUNITY",
+      "keywords": [
+        "elrs",
+        "rx"
+      ],
+      "author": "Den Williams",
+      "priority": 10000000000
+    },
+    {
       "fullPath": "presets/4.3/rc_link/elrs_spi.txt",
-      "hash": "95e7a0006894bb27da9b56d8c63fbfdb8d109ed64b05139c3c1c291cba197cc3",
+      "hash": "58f4148379519e6431cc8ec3dddfcaec135507bbf32512d436abf266b58e7138",
       "title": "ELRS SPI Binding",
       "firmware_version": [
         "4.3"
@@ -3516,7 +3568,7 @@
     },
     {
       "fullPath": "presets/4.3/tune/whoop/whoop_65mm_1s.txt",
-      "hash": "c301c06d849416c2d2dc4ab8eee6b476eed82a22aee394a61c64dcb978ae40f0",
+      "hash": "5d6a1e635646cee859067e7ecf802fe9e8d1f52ebd00cdee3b1aaea192983bc0",
       "title": "65mm 1S Whoop",
       "firmware_version": [
         "4.3"
@@ -3532,9 +3584,26 @@
       "priority": 1000000000000
     },
     {
-      "fullPath": "presets/4.3/tune/whoop/whoop_75mm_1s.txt",
-      "hash": "11b42fce41ceb78e1852e34c7a35a9e8ddaada80be995863e9f3c62f1833e0ac",
-      "title": "75mm 1S Whoop",
+      "fullPath": "presets/4.3/tune/whoop/whoop_75mm_1s_no_rpm.txt",
+      "hash": "76aa5fab3b01fc14e635b1bd65f6973a34d441224337e5c560cbdd69737c2e39",
+      "title": "75mm 1S Whoop Tune with RPM Filtering and Dynamic Idle",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "1S",
+        "75mm",
+        "whoop"
+      ],
+      "author": "Den Williams",
+      "priority": 1000000000000
+    },
+    {
+      "fullPath": "presets/4.3/tune/whoop/whoop_75mm_1s_rpm.txt",
+      "hash": "1c220bbcfc397c13a677d70ca4f3931ff3fc853af0b5e37a1572a80ec349bc06",
+      "title": "75mm 1S Whoop Tune with RPM Filtering and Dynamic Idle",
       "firmware_version": [
         "4.3"
       ],

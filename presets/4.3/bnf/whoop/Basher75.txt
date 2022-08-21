@@ -1,19 +1,19 @@
-#$ TITLE: W403_75
+#$ TITLE: Basher75
 #$ FIRMWARE_VERSION: 4.3
 #$ CATEGORY: BNF
 #$ STATUS: EXPERIMENTAL 
 #$ KEYWORDS: 1S, 40mm, 75mm, whoop, crazybee, tlite
 #$ AUTHOR: Den Williams
-#$ DESCRIPTION: Mobula 7 V4 Frame / 1S / Tri-blade 40mm Props / CrazybeeX 1.0 / Frsky R-XSR / T-Lite
+#$ DESCRIPTION: Mobula 7 V4 Frame / 1S / Tri-blade 40mm Props / CrazybeeX 1.0 / EP2 ELRS / T-Lite
 #$ DESCRIPTION: 75mm whoop built on Mobula 7 V4 Frame with 40mm props
 #$ DESCRIPTION: 1S battery with a CrazybeeX 1.0 FC
 #$ DESCRIPTION: Using Jumper T-Lite controller
 #$ INCLUDE: presets/4.3/tune/whoop/whoop_75mm_1s_rpm.txt
-#$ INCLUDE: presets/4.3/other/fc/crazybeex_10_frsky_rxsr.txt
+#$ INCLUDE: presets/4.3/other/fc/crazybeex_10_ep2.txt
 #$ INCLUDE: presets/4.3/other/controller/tlite.txt
 #$ INCLUDE: presets/4.3/modes/whoop/tlite_whoop.txt
 
-set name = W403_75
+set name = Basher75
 
 set acc_calibration = 8,-47,-234,1
 set motor_poles = 12

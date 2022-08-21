@@ -3,14 +3,15 @@
 #$ CATEGORY: FILTERS
 #$ STATUS: OFFICIAL
 #$ KEYWORDS: filter, filters, filtering, normal, no rpm, basic, default, betaflight
-#$ AUTHOR: Betaflight
+#$ AUTHOR: Den Williams
 #$ DESCRIPTION: Intended for a well maintained build in good condition.
 #$ DESCRIPTION: If motors get hot, try a filter set for noisy or very noisy motors, or try lowering the D filter slider.
 #$ DESCRIPTION: If motors grind or make noise at idle, lower the D filter slider.
 
 #$ INCLUDE: presets/4.3/filters/defaults.txt
 
-# disable dshot rpm telemetry
+# TODO: change this to be based on UAV Tech one
+
 set dshot_bidir = OFF
 
 # -- Gyro filters --

@@ -1,4 +1,4 @@
-#$ TITLE: 75mm 1S Whoop
+#$ TITLE: 75mm 1S Whoop Tune with RPM Filtering and Dynamic Idle
 #$ FIRMWARE_VERSION: 4.3
 #$ CATEGORY: TUNE
 #$ STATUS: COMMUNITY 
@@ -18,15 +18,13 @@ feature -AIRMODE
 
 # beacon
 beacon RX_SET
+beacon RX_LOST
 
 # serial
-serial 0 2048 115200 57600 0 115200
+# this is FC specific, shouldn't be in tune
+# serial 0 2048 115200 57600 0 115200
 
 # master
-# set dyn_notch_count = 5
-# set dyn_notch_min_hz = 100
-# set dyn_notch_max_hz = 800
-# set motor_poles = 12
 set vbat_min_cell_voltage = 310
 set vbat_warning_cell_voltage = 330
 set yaw_motors_reversed = ON
@@ -54,8 +52,10 @@ set f_yaw = 173
 set d_min_roll = 65
 set d_min_pitch = 73
 set thrust_linear = 20
+# TODO - this should be in RC_LINK
 set feedforward_transition = 21
 set feedforward_averaging = 2_POINT
+# END TODO
 set simplified_master_multiplier = 145
 set simplified_d_gain = 150
 set crash_recovery = ON

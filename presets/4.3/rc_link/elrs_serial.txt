@@ -1,19 +1,16 @@
-#$ TITLE: ELRS SPI Binding
+#$ TITLE: ELRS Serial Based
 #$ FIRMWARE_VERSION: 4.3
 #$ CATEGORY: RC_LINK
 #$ STATUS: COMMUNITY
-#$ KEYWORDS: elrs, rx, spi
+#$ KEYWORDS: elrs, rx
 #$ AUTHOR: Den Williams
-#$ DESCRIPTION: Use an onboard ELRS SPI receiver for RX
+#$ DESCRIPTION: Use a serial ELRS RX
 
-feature -RX_SERIAL
-feature RX_SPI
-set rx_spi_protocol = EXPRESSLRS
+feature RX_SERIAL
 
 set rc_smoothing_auto_factor = 25
 set rc_smoothing_auto_factor_throttle = 25
 set serialrx_provider = CRSF
-set expresslrs_rate_index = 1
 
 set iterm_relax = RPY
 set feedforward_averaging = 2_POINT
