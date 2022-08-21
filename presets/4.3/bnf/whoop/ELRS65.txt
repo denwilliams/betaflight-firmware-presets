@@ -1,19 +1,19 @@
-#$ TITLE: Diamond65
+#$ TITLE: ELRS65
 #$ FIRMWARE_VERSION: 4.3
 #$ CATEGORY: BNF
 #$ STATUS: EXPERIMENTAL 
-#$ KEYWORDS: 1S, 31mm, 65mm, whoop, crazybee, diamondf4, tlite
+#$ KEYWORDS: 1S, 31mm, 65mm, whoop, crazybee, elrs, tlite
 #$ AUTHOR: Den Williams
 #$ DESCRIPTION: Mobula 6 Frame / 1S / Tri-blade 31mm Props / Crazybee DiamondF4 / Frsky D8 / T-Lite
 #$ DESCRIPTION: 65mm whoop built on Mobula 6 Frame with 31mm props
 #$ DESCRIPTION: 1S battery with a Crazybee DiamondF4 FC
 #$ DESCRIPTION: Using Jumper T-Lite controller
 #$ INCLUDE: presets/4.3/tune/whoop/whoop_65mm_1s.txt
-#$ INCLUDE: presets/4.3/other/fc/crazybee_f4elrs.txt
+#$ INCLUDE: presets/4.3/other/fc/crazybeex_diamondf4_frsky.txt
 #$ INCLUDE: presets/4.3/other/controller/tlite.txt
 #$ INCLUDE: presets/4.3/modes/whoop/tlite_whoop.txt
 
 set name = ELRS65
 
-set acc_calibration = 56,-4,-22,1
+set acc_calibration = 32,-98,-89,1
 set motor_poles = 12

@@ -22,19 +22,6 @@ beacon RX_SET
 # serial
 serial 0 2048 115200 57600 0 115200
 
-# aux
-aux 0 0 0 1800 2100 0 0
-aux 1 1 2 1300 1700 0 0
-aux 2 2 2 1700 2100 0 0
-aux 3 13 3 1275 1675 0 0
-aux 4 28 1 1700 2100 0 0
-aux 5 35 3 1800 2100 0 0
-
-# adjrange
-adjrange 0 0 1 900 1200 12 1 0 0
-adjrange 1 0 1 1200 1800 12 1 0 0
-adjrange 2 0 1 1800 2100 12 1 0 0
-
 # master
 # set dyn_notch_count = 5
 # set dyn_notch_min_hz = 100
@@ -71,10 +58,13 @@ set feedforward_transition = 21
 set feedforward_averaging = 2_POINT
 set simplified_master_multiplier = 145
 set simplified_d_gain = 150
+set crash_recovery = ON
+set dyn_idle_min_rpm = 35
 
-rateprofile 0
 # rateprofile 0
-set yaw_rc_rate = 25
-set roll_srate = 80
-set pitch_srate = 80
-set yaw_srate = 90
+# rateprofile 0
+# set yaw_rc_rate = 25
+# set roll_srate = 80
+# set pitch_srate = 80
+# set yaw_srate = 90
+

@@ -278,7 +278,7 @@
       "dual",
       "E7082VM",
       "eachine",
-      "ELRS",
+      "elrs",
       "emax",
       "EVO",
       "expert",
@@ -409,6 +409,7 @@
       "some",
       "Spec",
       "speedybee",
+      "spi",
       "stats",
       "Street",
       "Street League",
@@ -550,7 +551,7 @@
     },
     {
       "fullPath": "presets/4.3/bnf/whoop/Diamond65.txt",
-      "hash": "4b5474f758a3ab58f85687f71964e1800e3d38f02b6f75efc6d94698a0fa643f",
+      "hash": "6d98519ea9c8d5ee436d6175aca53605a654a9a45f0dea096aef39a0b74f3db2",
       "title": "Diamond65",
       "firmware_version": [
         "4.3"
@@ -564,6 +565,27 @@
         "whoop",
         "crazybee",
         "diamondf4",
+        "tlite"
+      ],
+      "author": "Den Williams",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.3/bnf/whoop/ELRS65.txt",
+      "hash": "94d5e0ecb44cffd8a3a8b0265dab3f3a7e439d3b824f37cebb02ec3cc717e381",
+      "title": "ELRS65",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "BNF",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "1S",
+        "31mm",
+        "65mm",
+        "whoop",
+        "crazybee",
+        "elrs",
         "tlite"
       ],
       "author": "Den Williams",
@@ -967,6 +989,28 @@
       "priority": 100
     },
     {
+      "fullPath": "presets/4.3/filters/whoop/whoop_rpm.txt",
+      "hash": "dfbc7bb1af0b3ba162893dbe2435bf054fd853ef2f3a7f3bfc5eda3e875254f0",
+      "title": "4.3 Filter settings for NORMAL build WITH RPM FILTERING.",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "FILTERS",
+      "status": "OFFICIAL",
+      "keywords": [
+        "filter",
+        "filters",
+        "filtering",
+        "normal",
+        "no rpm",
+        "basic",
+        "default",
+        "betaflight"
+      ],
+      "author": "Betaflight",
+      "priority": 100
+    },
+    {
       "fullPath": "presets/4.3/leds/defaults.txt",
       "hash": "c1dc1b69bd7b001253f05b56f3f6c3d60e93615c718f30a3b815846f445d1f6c",
       "title": "Default 4.3 LED settings",
@@ -1025,7 +1069,7 @@
     },
     {
       "fullPath": "presets/4.3/modes/whoop/tlite_whoop.txt",
-      "hash": "0443c2b9dccbf1d4a378f993edf821e124dc12d23e1fcaa8d58c6724697b62eb",
+      "hash": "23d575aa597f637b265fdf9e86f77321beeb867fdb469811c416045e6239991c",
       "title": "Modes for a whoop on T-Lite",
       "firmware_version": [
         "4.3"
@@ -1124,7 +1168,7 @@
     },
     {
       "fullPath": "presets/4.3/osd/whoop/whoop.txt",
-      "hash": "ff54beb1ebeb38ae8a77dd2551bd05788ccd7c357f35f48edf12482b4ff5cf93",
+      "hash": "161ec0ca4c5caca71c13b1c5b01c1f61cc962980912ff30c6eb8bc34269a0a28",
       "title": "Whoop OSD settings",
       "firmware_version": [
         "4.3"
@@ -1316,6 +1360,22 @@
       "keywords": [
         "jumper",
         "tx"
+      ],
+      "author": "Den Williams",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.3/other/fc/crazybee_f4elrs.txt",
+      "hash": "dc87fcf8063ac6cfce228f1776126ae06824901e98baa07dd29ddfee9c59ffc8",
+      "title": "Crazybee ELRS F4",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "OTHER",
+      "status": "COMMUNITY",
+      "keywords": [
+        "crazybee",
+        "fc"
       ],
       "author": "Den Williams",
       "priority": 0
@@ -2071,6 +2131,23 @@
       ],
       "author": "ctzsnooze",
       "force_options_review": true,
+      "priority": 10000000000
+    },
+    {
+      "fullPath": "presets/4.3/rc_link/elrs_spi.txt",
+      "hash": "a08c32d11af77590d9762bd871e0f913e15ca614a6d35f46441212d10a354363",
+      "title": "ELRS SPI Binding",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "RC_LINK",
+      "status": "COMMUNITY",
+      "keywords": [
+        "elrs",
+        "rx",
+        "spi"
+      ],
+      "author": "Den Williams",
       "priority": 10000000000
     },
     {
@@ -3403,7 +3480,7 @@
     },
     {
       "fullPath": "presets/4.3/tune/toothpick/toothpick_2inch_2s.txt",
-      "hash": "d53663ffd307d606acb7411ccbbcc12626f0d3090519b5553ec3f046e2567445",
+      "hash": "4f6a06d5e4e365a366107fe36e350996025fcc408ea38867342b6021d2e5663b",
       "title": "2\" 2S Toothpick",
       "firmware_version": [
         "4.3"
@@ -3439,7 +3516,7 @@
     },
     {
       "fullPath": "presets/4.3/tune/whoop/whoop_65mm_1s.txt",
-      "hash": "30289e7ee780770864bf16cb091644601d28689dae875ce2d3319700d92d221b",
+      "hash": "c301c06d849416c2d2dc4ab8eee6b476eed82a22aee394a61c64dcb978ae40f0",
       "title": "65mm 1S Whoop",
       "firmware_version": [
         "4.3"
@@ -3456,7 +3533,7 @@
     },
     {
       "fullPath": "presets/4.3/tune/whoop/whoop_75mm_1s.txt",
-      "hash": "b68b88667b011d9edbf9d0f87005e46483f6e34bdf020224967961c77bd2f286",
+      "hash": "11b42fce41ceb78e1852e34c7a35a9e8ddaada80be995863e9f3c62f1833e0ac",
       "title": "75mm 1S Whoop",
       "firmware_version": [
         "4.3"
@@ -3768,6 +3845,23 @@
         "SA 2.0 lite"
       ],
       "author": "sugarK",
+      "priority": 1000000
+    },
+    {
+      "fullPath": "presets/4.3/vtx/crazybee_f4elrs.txt",
+      "hash": "567e5d872d700884fd2250d7d7ae35d5083f2a4b18ed9fbd73105c496d12b7f5",
+      "title": "Crazybee F4 ELRS Internal VTX 250mW",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "VTX",
+      "status": "COMMUNITY",
+      "keywords": [
+        "happymodel",
+        "crazybee",
+        "fc"
+      ],
+      "author": "Den Williams",
       "priority": 1000000
     },
     {

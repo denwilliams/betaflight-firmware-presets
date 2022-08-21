@@ -59,6 +59,8 @@ set simplified_d_gain = 150
 # set f_yaw = 173
 # set d_min_roll = 65
 # set d_min_pitch = 73
+set crash_recovery = ON
+set dyn_idle_min_rpm = 35
 
 simplified_tuning apply
 
@@ -66,3 +68,6 @@ simplified_tuning apply
 set thrust_linear = 20
 # set feedforward_transition = 21
 # set feedforward_averaging = 2_POINT
+
+# set simplified_gyro_filter_multiplier = 150
+# set report_cell_voltage = ON

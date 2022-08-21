@@ -1,0 +1,37 @@
+#$ TITLE: Crazybee ELRS F4
+#$ FIRMWARE_VERSION: 4.3
+#$ CATEGORY: OTHER
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: crazybee, fc
+#$ AUTHOR: Den Williams
+#$ DESCRIPTION: Configuration for Crazybee ELRS F4
+#$ INCLUDE: presets/4.3/vtx/crazybee_f4elrs.txt
+#$ INCLUDE: presets/4.3/rc_link/elrs_spi.txt
+
+# version
+# Betaflight / CRAZYBEEF4SX1280 (HAMO) 4.3.0 Apr 15 2022 / 09:57:21 (9360ab1) MSP API: 1.44
+
+board_name CRAZYBEEF4SX1280
+manufacturer_id HAMO
+mcu_id 003d001a3435510836393439
+signature 
+
+# name: ELRSF4
+
+# resources
+resource FLASH_CS 1 NONE
+
+# dma
+dma pin A09 NONE
+dma pin A10 NONE
+
+# feature
+feature -AIRMODE
+feature -ANTI_GRAVITY
+
+# serial
+serial 1 2048 115200 57600 0 115200
+
+# beacon
+beacon RX_LOST
+beacon RX_SET
